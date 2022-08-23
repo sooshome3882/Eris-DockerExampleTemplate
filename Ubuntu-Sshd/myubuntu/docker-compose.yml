@@ -6,6 +6,6 @@ services:
     container_name: myubuntu
     command: /usr/sbin/sshd -D
     ports:
-      - '11111:22'
+      - '60022:22'
     expose:
-      - '11111'
+      - '60022'
