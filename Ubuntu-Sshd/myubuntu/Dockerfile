@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER kukaro <justkukaro@naver.com>
+MAINTAINER sooshome3882 <sooshome3882@kakao.com>
 RUN apt-get update
 RUN apt-get install -y openssh-server
 RUN mkdir /var/run/sshd
